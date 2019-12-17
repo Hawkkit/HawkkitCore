@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Hawkkit Core
+Comment=Hawkkit P2P Cryptocurrency
+Comment[de]=Verbinde mit dem Hawkkit peer-to-peer Netzwerk
+Comment[fr]=Hawkkit, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Hawkkit, eşten eşe kriptografik sanal para birimi
+Exec=hawkkit-qt %u
+Terminal=false
+Type=Application
+Icon=hawkkit128
+MimeType=x-scheme-handler/hawkkit;
+Categories=Office;Finance;

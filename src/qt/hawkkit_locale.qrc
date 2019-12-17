@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/hawkkit_ar.qm</file>
+        <file alias="bg">locale/hawkkit_bg.qm</file>
+        <file alias="de">locale/hawkkit_de.qm</file>
+        <file alias="en">locale/hawkkit_en.qm</file>
+        <file alias="es">locale/hawkkit_es.qm</file>
+        <file alias="fi">locale/hawkkit_fi.qm</file>
+        <file alias="fr">locale/hawkkit_fr.qm</file>
+        <file alias="it">locale/hawkkit_it.qm</file>
+        <file alias="ja">locale/hawkkit_ja.qm</file>
+        <file alias="ko">locale/hawkkit_ko.qm</file>
+        <file alias="nl">locale/hawkkit_nl.qm</file>
+        <file alias="pl">locale/hawkkit_pl.qm</file>
+        <file alias="pt">locale/hawkkit_pt.qm</file>
+        <file alias="ru">locale/hawkkit_ru.qm</file>
+        <file alias="sk">locale/hawkkit_sk.qm</file>
+        <file alias="sv">locale/hawkkit_sv.qm</file>
+        <file alias="th">locale/hawkkit_th.qm</file>
+        <file alias="tr">locale/hawkkit_tr.qm</file>
+        <file alias="vi">locale/hawkkit_vi.qm</file>
+        <file alias="zh_CN">locale/hawkkit_zh_CN.qm</file>
+        <file alias="zh_TW">locale/hawkkit_zh_TW.qm</file>
+    </qresource>
+</RCC>

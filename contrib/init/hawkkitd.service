@@ -1,0 +1,22 @@
+[Unit]
+Description=Hawkkit's distributed currency daemon
+After=network.target
+
+[Service]
+User=hawkkitcore
+Group=hawkkitcore
+
+Type=forking
+PIDFile=/var/lib/hawkkitd/hawkkitd.pid
+ExecStart=/usr/bin/hawkkitd -daemon -pid=/var/lib/hawkkitd/hawkkitd.pid \
+-conf=/etc/hawkkitcore/hawkkit.conf -datadir=/var/lib/hawkkitd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
